@@ -1,6 +1,8 @@
 {
   "ids": {
-    "Todo": 6
+    "Todo": 6,
+    "User": 4,
+    "UserCredentials": 4
   },
   "models": {
     "Todo": {
@@ -9,6 +11,16 @@
       "3": "{\"title\":\"play space invaders\",\"desc\":\"Become the very best!\",\"id\":3}",
       "4": "{\"title\":\"crush rebel scum\",\"desc\":\"Every.Last.One.\",\"id\":4}",
       "5": "{\"title\":\"get the milk\",\"id\":5}"
+    },
+    "User": {
+      "dd6dd7f5-0cd4-436b-af6f-55fb9f549696": "{\"id\":\"dd6dd7f5-0cd4-436b-af6f-55fb9f549696\",\"email\":\"testuser2@abc.com\"}",
+      "e2724fdb-e751-44db-af82-329008ec1efc": "{\"id\":\"e2724fdb-e751-44db-af82-329008ec1efc\",\"email\":\"testuser2@abc.com\"}",
+      "7294416b-3fad-41e3-bfb9-dcafe4cb2dea": "{\"id\":\"7294416b-3fad-41e3-bfb9-dcafe4cb2dea\",\"email\":\"testuser2@gmail.com\"}"
+    },
+    "UserCredentials": {
+      "24e8ca99-78bf-4081-9816-7b211fb48f90": "{\"id\":\"24e8ca99-78bf-4081-9816-7b211fb48f90\",\"password\":\"$2a$10$dTlDj3M/tqHhv4DrWvfNqeaVuv/j.KVWG5obpB7sosIvnpZfJmIh.\",\"userId\":\"dd6dd7f5-0cd4-436b-af6f-55fb9f549696\"}",
+      "a2f8c9c8-e628-4206-b399-ae5acdaec4c3": "{\"id\":\"a2f8c9c8-e628-4206-b399-ae5acdaec4c3\",\"password\":\"$2a$10$frtT0uoUXubRKEzJPtenA.GOQr0TMqmM6mloZPjiDizNzykc1jorO\",\"userId\":\"e2724fdb-e751-44db-af82-329008ec1efc\"}",
+      "981147ec-6e5c-491b-91ea-5f06ed3cfee6": "{\"id\":\"981147ec-6e5c-491b-91ea-5f06ed3cfee6\",\"password\":\"$2a$10$zYMWwsi1.xDP7XEcvKKbDO6qssowTcSbFV0S9Hqf4VHy8LgCuDvjW\",\"userId\":\"7294416b-3fad-41e3-bfb9-dcafe4cb2dea\"}"
     }
   }
 }
